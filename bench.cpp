@@ -14,5 +14,6 @@ int main() {
   std::cout << "Result:" << std::endl;
   std::cout << aesthetic("foo bar") << std::endl;
   std::cout << std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count() << " nanoseconds" << std::endl;
+  std::getchar();
   return 0;
 }

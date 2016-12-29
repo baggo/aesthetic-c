@@ -250,3 +250,7 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+# People can import the directory instead of .sln
+.sln
+.vcxproj*
